@@ -1,0 +1,9 @@
+{
+  "name":"aircoin-arcade",
+  "version":"1.0.0",
+  "private":true,
+  "type":"module",
+  "scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0","server":"node server/index.js"},
+  "dependencies":{"@supabase/supabase-js":"^2.57.4","@tonconnect/ui":"^2.3.0","dotenv":"^16.6.1","express":"^5.1.0","helmet":"^8.1.0","zod":"^4.1.5"},
+  "devDependencies":{"vite":"^7.1.7"}
+}
